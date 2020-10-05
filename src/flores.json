@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Cactus",
+        "image": "https://images.vexels.com/media/users/3/126780/isolated/preview/3b7361c2582e7e413ef01a04013ee3ce-dibujo-de-maceta-plana-2-cactus-by-vexels.png",
+        "price": 14.95,
+        "size": "medium"
+    },
+    {
+        "id": 2,
+        "name": "Suculenta",
+        "image": "https://images.vexels.com/media/users/3/181396/isolated/preview/5885cd0f36b05de75ab6178a604abead-succulent-attractive-gasteria-illustration-by-vexels.png",
+        "price": 11.95,
+        "size": "medium"
+
+    },
+    {
+        "id": 3,
+        "name": "Planta de hogar",
+        "image": "https://images.vexels.com/media/users/3/205377/isolated/preview/00d9346cba716106f5cc19492c236849-planta-de-interior-maceta-roja-ilustraci--n-by-vexels.png",
+        "price": 21.95,
+        "size": "medium"
+        
+    }
+]

@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+.listaContainer{
+    border: solid 2px #333; 
+    min-height: 200px;  
+    margin: 15px 0;
+    padding: 15px ;
+
+    li{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        font-weight: bold;
+}
+
+}

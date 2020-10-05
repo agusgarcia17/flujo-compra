@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+.resumenContainer{
+    border: solid 2px #333; 
+    min-height: 200px;  
+    margin: 15px 0;
+    padding: 15px ;
+
+    p {
+        font-weight: bold;
+    }
+
+    li{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+
+            p {
+                font-weight: 400;
+            }
+    }
+
+}

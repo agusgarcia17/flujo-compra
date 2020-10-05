@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.medium {
+    border: solid 2px #333;   
+    height: 100%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+    .imagenFlor{
+        width: 200px;
+    }
+
+    .imgContainer  {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .descripcion{
+        p {
+            text-align: center;
+            font-weight: bold;
+        } 
+    }
+
+    .btn {
+
+        display: flex;
+        justify-content: center;
+
+        button{
+            height: auto;
+            border: none;
+            border-radius: 10px;
+            background-color:#656565;
+            color: honeydew;
+            font-weight: 600; 
+            width: 50%;  
+            outline:none;
+        }
+    }
+
+
+    
+}
+
+ 
+
+ 
