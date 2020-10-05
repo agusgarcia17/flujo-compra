@@ -11,7 +11,7 @@ function App() {
   const [showCart, setShowCart] = useState(false)
   const [pedido, setPedido] = useState({})
   const [cart, setCart] = useState([])
-  const [subTotal, setSubTotal] = useState([]) 
+  const [subTotal, setSubTotal] = useState(0) 
 
   function addToCart(name, price){
 
@@ -23,11 +23,9 @@ function App() {
       ...prevState,
       pedido
     ]))
+ 
 
-    setSubTotal([
-      ...subTotal,
-      price
-    ])  
+    setSubTotal((prevState)=> prevState + price )
   
   }
   

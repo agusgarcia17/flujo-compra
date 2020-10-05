@@ -23,7 +23,7 @@ function Producto (props) {
                 <p>Precio: {price}</p>   
             </div>
             <div className="btn">
-            <Button callback={(name, price)=>handleAdd(name, price)} label="Agregar a carrito"/>
+            <Button callback={()=>handleAdd(name, price)} label="Agregar a carrito"/>
             </div>
         </div>
     )

@@ -13,8 +13,8 @@ function Resumen () {
                  if (Object.entries(item).length !== 0){
                 return (
                     <li key={key}>
-                    <p>{item.name}</p>
-                    <p>{item.price}</p>
+                        <p>{item.name}</p>
+                        <p>{item.price}</p>
 
                     </li>
                 )}

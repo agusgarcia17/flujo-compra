@@ -5,7 +5,7 @@ import "./styles.scss"
 
 function Lista () {
 
-    const { subTotal } = useContext(ProductContext)
+    const { subTotal, cart } = useContext(ProductContext)
     
     // const suma = subTotal.reduce(function(a, b){ return a + b; })
 
@@ -13,11 +13,11 @@ function Lista () {
         <div className="listaContainer">
             <li>
                 <p>Total de productos:  </p>
-                <p>{subTotal.length}</p> 
+                <p>{cart.length}</p> 
             </li>
             <li>
                 <p>Total a pagar:  </p>
-                <p>{subTotal.length > 0 ? subTotal.reduce(function(a, b){ return a + b; }) : 0}</p>
+                <p>{subTotal}</p>
             </li> 
         </div>
     )
