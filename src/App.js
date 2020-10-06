@@ -8,8 +8,7 @@ import flores from "./flores.json"
 
 function App() {
   
-  const [showCart, setShowCart] = useState(false)
-  const [pedido, setPedido] = useState({})
+  const [showCart, setShowCart] = useState(false) 
   const [cart, setCart] = useState([])
   const [subTotal, setSubTotal] = useState(0) 
 
@@ -17,11 +16,9 @@ function App() {
 
     const item = { name, price }
   
-    setPedido(item) 
- 
     setCart((prevState => [
       ...prevState,
-      pedido
+      item
     ]))
  
 
